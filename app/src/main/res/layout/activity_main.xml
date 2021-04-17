@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="#F46604"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#8BC34A"
+        android:hint="Username"
+        android:paddingLeft="16dp" />
+
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#8BC34A"
+        android:hint="Password"
+        android:paddingLeft="16dp"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#8BC34A"
+        android:hint="SUBMIT"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/white"
+        app:backgroundTint="#8BC34A" />
+
+    <TextView
+        android:id="@+id/edittext_newaccount"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:text="Create account"
+        android:textColor="#BDAFAF"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
